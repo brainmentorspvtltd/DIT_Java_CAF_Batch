@@ -1,0 +1,93 @@
+Java
+
+- WORA: Write Once Run Anywhere
+- Platform Independent or Portable
+- Platform = O/S + Hardware
+
+Source Code(.c) ----> Compile ----> Machine Code (.obj)
+
+- C is not a platform independent or portable
+
+Source Code (.java) -----> Compile ----> Byte Code or Intermediate code(.class) ---> Interpreter (JRE)
+---> Machine Code
+
+JRE: Java Runtime Environment
+- JVM - Java Virtual Machine
+- Libraries
+
+Byte Code: Byte code is not a source code and not a machine code.
+
+JRE: JRE read byte code and converted it into machine code.
+
+Java History:
+
+- Invented by James Gosling in 1991
+- Developed by Sun Microsystems
+- The old name of java is "oak"
+- In 1995, first released publicly as Java 1.0
+- Sun Microsystems sold java to Oracle corporation in 2009
+
+
+Where we use use java?
+
+- Enterprise Applications
+- Distributed
+- Banking Solutions
+	- Loan System
+	- Insurance System
+	- CASA (Current Account, Saving Account)
+
+- Sun Solaris Server - Hardware
+- Sun Solaris O/S - Operating System
+- Oracle Certified Java Programmer - OCJP
+
+Java Setup:
+
+- JDK Install
+	- javac : java compiler
+	- java doc: java documentation
+	- java jar: java archieve
+
+Creating first program in java
+
+- Every java program start with class
+- Class name should start with capital letter
+- Class name should be same as file name
+- Class name starts with either aplhabet or special symbol(_, $)
+
+
+- Java code Compile: javac filename.java
+- Java code Run/Execute: java Bytecode/Classname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
