@@ -1,0 +1,99 @@
+Creating first program in java
+
+- Every java program start with class
+- Class name should start with capital letter
+- Class name should be same as file name
+- Class name starts with either aplhabet or special symbol(_, $)
+
+
+- Java code Compile: javac filename.java
+- Java code Run/Execute: java Bytecode/Classname
+
+main method:
+
+- main is an entry point of every java program
+- without main java will compile the code and convert it into byte code, but it cannot execute the code or interpret the code
+
+4 types of scopes in java
+
+public: global, which is accessible for all, from anywhere
+private: accessible within the class only
+protected: can be accessible outside the package by using inheritance and can also be accessible inside the package
+default: It is not a resereved keyword, if your will not specify any scope then it is default.
+The scope can be accessed by any class but within same package.
+
+why main is public?
+
+- JRE uses main
+- java command trigger the JRE
+- JRE load your class in the memory
+- JRE is looking for main
+- JRE is outside from your directory
+- And outside the package things can access
+
+why main is static?
+
+- Static things are loaded into memory when class is loaded.
+
+why main is void?
+
+- main is void in nature
+- main is entry point so there is no need to return anything
+
+Main arguments - String[] args
+
+- main has command line arguments
+- we can pass any number of arguments, that's why it is array
+- All arguments are pass to main in form of array of string
+
+What is String?
+
+- String is a collection of characters
+- String internally is a char[]
+- String is a predefined class in java as it is in capital letter
+
+
+What is System.out.println("DIT")?
+
+- println(): print in new line, println comes from out object
+- out: out is a predefined object, which belongs to PrintStream class
+- System: System is a predefined class used for input, output, and error
+e.g: System.in, System.out, System.err
+
+println vs print
+
+println: print in new line
+print: here cursor remains at the end of the text
+
+can we overload main()?
+
+- yes, we can overload main
+- when we execute the class, JVM starts execution with public static void main(String[] args)
+        
+
+Define variable, Variable Declaration, local variable initialize must
+
+- java doesn't have any garbage value
+- it throws error
+- local variable must be initialized before use, otherwise compilation fails
+
+
+Assignment:
+
+1. print L
+
+*
+*
+*
+*
+********
+
+2. print Z
+
+********
+      *
+     *
+    *
+   *
+  *
+*********
