@@ -1,0 +1,83 @@
+Data Types:
+
+1. Primitive Data Types: Value Data Types (in lowercase)
+
+It is used to store integral only:
+
+byte - 1 byte
+
+Enter the Age of Student:
+
+byte - 1 byte = 8 bits
+
+1 bit + -
+7 bits number range
+Bit - 0, 1 base 2
+
+-2 ^ 7 to 2 ^ 7 -1
+-128 to 127
+
+
+short - 2 bytes
+int - 4 bytes
+long - 8 bytes
+
+Decimal / Float Values
+
+float - 4 bytes
+double - 8 bytes
+
+
+- java doesn't have unsigned concept
+
+char - 2 bytes
+
+- Because java works on unicode (universal code)
+
+Boolean - size depending upon o/s
+
+- 1 byte / 2 bytes / 4 bytes
+
+2. Reference Data Types: Address Data types (in Captial Letter)
+
+String name = "Ram";
+
+Assignment - 2:
+
+Salary Calculator:
+
+- Take Basic Salary of employee as input
+Then Print
+
+HRA: 30% of the Basic Salary
+DA: 20% of the Basic Salary
+TA: 10% of the Basic Salary
+MA: 15% of the Basic Salary
+PR: 5% of the Basic Salary
+
+Gross Salary: BS + HRA + DA + TA + MA
+Net Salary: GS - PF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
