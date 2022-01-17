@@ -1,0 +1,62 @@
+Java
+
+Wrapper Classes:
+
+- convert primitive data types into objects.
+
+Primitve Data Types 				Wrapper Classes
+
+int						Integer
+byte						Byte
+short						Short
+char						Character
+long						Long
+float						Float
+double						Double
+boolean						Boolean
+
+Autoboxing- convert primitive data types into object of their corresponding wrapper classes.
+e.g: int to Integer
+
+Unboxing- reverse process of autoboxing.
+e.g: Integer to int
+
+Assignment:
+
+1. Improve Salary Calculator
+
+- In Gross Salary it it is > 9L so tax is 30%
+- If it is b/w <9L to >7L it is 20%
+- It it is b/w <7L to >= 5L it is 10%
+- Otherwise 0 tax
+
+2. Grading System
+
+- Enter 3 Subjects marks 90, 78, 99
+- And do total and get the percentage
+- 90 to 70 : A Grade
+- 70 to 60 : B Grade
+- 60 to 50 : C Grade
+else D Grade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
