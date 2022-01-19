@@ -1,0 +1,72 @@
+*
+**
+***
+****
+*****
+
+print reverse a number
+
+i/p : 345
+o/p : 543
+
+print reverse a String
+
+i/p: char name[] = {'R', 'a', 'm'};
+o/p: mar
+
+check whether a given number is palindrome or not?
+
+345 = 543, np
+121 = 121, p
+1001 = 1001 , p
+
+Factorial of number
+
+n = 5
+
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+Fibonacci Series:
+
+n = 5
+0, 1, 1, 2, 3
+
+n1 = 0, n2 = 1
+n3 = n1 + n2; = 1
+
+n1 = n2; // 1
+n2 = n3; // 1
+
+n3 = n1 + n2 = 2
+
+n1 = n2; // 1
+n2 = n3; // 2
+
+n3 = n1 + n2 = 3
+
+0, 1, 1, 2, 3, 5, 8, 13, ......
+
+Power of a number
+
+i/p: base = 2, exponent or power = 3
+o/p: 8
+
+Replace all vowels with X
+e.g: java 
+o/p: jXvX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
