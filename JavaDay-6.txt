@@ -1,0 +1,163 @@
+Java
+
+Armstrong Number: Armstrong number is a number that is equal to the sum of cubes of its digits.
+e.g: 153, 370, 0, 1, 371
+
+153: 
+(1 * 1 * 1) + (5 * 5 * 5) + (3 * 3 * 3)
+1	+	125	+	27 = 153
+
+Prime Number
+
+A prime number is a number that can only divisible by 1 and number itself.
+e.g: 2, 3, 5, 11, ......
+
+Pattern Programs:
+
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+
+
+Solid Rectangle Pattern
+
+******
+******
+******
+******
+
+rows = 4
+Columns = 6
+
+Pattern 5
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+Hollow Rectangle Pattern
+
+*****
+*   *
+*   *
+*   *
+*   *
+*   *
+*****
+
+i = rows
+i == 1 , i == n
+
+j = rows
+j == 1 , j == n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
