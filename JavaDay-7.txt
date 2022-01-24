@@ -1,0 +1,87 @@
+Java
+
+2 major types of programming
+
+- Procedural: Functions - Divide a problem into functions
+- OOPS: wrap all the variables and functions/methods into a single unit
+
+Why OOPS?
+
+In C programming
+
+class A
+{
+int x, y;
+
+add()
+{}
+
+sub()
+{}
+
+div()
+{}
+
+mul()
+{}
+}
+
+class B
+{
+sin()
+{
+  double x;
+}
+}
+
+
+is Java has global variable?
+
+- No, because in java every program start with class and class doesn't have global variable.
+
+What is OOPS?
+
+- Divide a big problem into classes
+
+OOPS Features:
+
+1. Class and Object
+
+Object: Real World Entity or Physical Entity
+
+e.g: car, projector, fan, a/c
+e.g: amit, ram, shyam, rahul, ......
+
+Class - Logical Entity - Collection of Similar objects
+
+Blueprint, Category
+
+- Collection of Features/Characteristics
+
+e.g: class Human(Features Brain, Height, Weight)
+object: ram brain sharp, 6 feet height
+
+
+Student Example:
+
+OOAD: Object Oriented Analysis and Design
+- SOLID Principle
+
+D: DRY - Don't Repeat Yourself
+
+Problem 1: Duplicacy in Code
+
+Solution: Copy Paste alternate create a method and call it.
+
+Problem 2: Security of the Code
+
+Solution: Data Security
+
+Encapsulation:
+
+Wrap methods and member variables into a single unit and that unit is called class.
+
+Data Hiding - Good Encapsulation
+
+Data Hiding: make member variables private 
+Good/Secure Encapsulation: Data Hiding + Encapsulation
