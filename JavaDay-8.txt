@@ -1,0 +1,23 @@
+Java
+
+this keyword:
+
+- this is used to hold current object's address
+- This keyword is ptional to write, it it implicitly work itself.
+
+Constructor:
+
+Q1. Need to intialize the member variable when object is construct.
+- We need constructor for this
+- Constructor is call when you create an object
+- So constructor will initialize the member variable
+- constructor name is same as class name
+- constructor never return anything
+- It is called only once
+- One class can have multiple constructors, so this thing is called constructor overloading
+- Every class by default have default constructor
+- So if you create any other constructor the default one is killed.
+
+When we need multiple constructor calls in a single call.
+- We need constructor chaining for this
+- this keyword also use for constructor chaining
