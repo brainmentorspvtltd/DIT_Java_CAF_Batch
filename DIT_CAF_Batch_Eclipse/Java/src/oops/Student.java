@@ -1,6 +1,6 @@
 package com.dit.java.oops;
 
-public class Student {
+public class Student { // Encapsulation + Data Hiding = Good Encapsulation
 	
 	//Class variables, instance variables, Data members
 	
@@ -11,11 +11,76 @@ public class Student {
 	private String phone;
 	private String course;
 	private double fees;
+	private String collegeName;
+	
+	//default constructor
+	Student()
+	{
+		//call to the parameterized Cons
+		this(1001, "Ram Kumar", "8763488723", "BCA", 10000.0);
+		collegeName = "DIT";
+	}
+	
+	//Parameterized Constructor
+	Student(int rollno, String name, String phone, String course, double fees)
+	{
+		//this(); // Call to the default constructor
+		this.rollno = rollno;
+		this.name = name;
+		this.phone = phone;
+		this.course = course;
+		this.fees = fees;
+	}
+	
+	
+	//r, n, p, c, f - local variables
+	// scope is with in the function
+	
+	//public void takeInput(int r, String n, String p, String c, double f)
+	/*
+	public void takeInput(int rollno, String name, String phone, String course, double fees)
+	{
+		
+//		instance variables = local variables
+		
+		this.rollno = rollno;
+		this.name = name;
+		this.phone = phone;
+		this.course = course;
+		this.fees = fees;	
+		
+//		rollno = r;
+//		name = n;
+//		phone = p;
+//		course = c;
+//		fees = f;		
+	}*/
+	
+	public void print() {
+	
+		System.out.println("Rollno is: "+this.rollno);
+		System.out.println("Name is: "+name);
+		System.out.println("Phone is: "+phone);
+		System.out.println("Course is: "+course);
+		System.out.println("Fees is: "+fees);
+		System.out.println("College Name is: "+collegeName);
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Student ram = new Student(); // ram: reference variable
+		// called parameterized Cons
+		//Student ram = new Student(1001, "Ram Kumar", "8763488723", "BCA", 10000.0);
+		Student ram = new Student(); // Call to the default cons
+		
+		// ram: reference variable
+		//ram.takeInput(1001, "Ram Kumar", "8763488723", "BCA", 10000.0);
+		ram.print();
+		
+		System.out.println("****************************************************");
+		
+//		Student shyam = new Student();
+//		shyam.print();
 		
 //		System.out.println("Roll no: "+ram.rollno);
 //		System.out.println("Name is: "+ram.name);
@@ -29,7 +94,7 @@ public class Student {
 //		ram.course = "MCA";
 //		ram.fees = 10000.0;
 		
-//		System.out.println("****************************************************");
+//	System.out.println("****************************************************");
 //		
 //		System.out.println("Roll no: "+ram.rollno);
 //		System.out.println("Name is: "+ram.name);
