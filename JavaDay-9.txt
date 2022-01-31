@@ -1,0 +1,106 @@
+What is Package?
+
+- Package is a folder behind the scene
+- Package is a collection of classes, interfaces...
+- We divide a big project into small2 packages
+- So we can group similar nature code in same kind of package
+
+Online Exam System
+
+- teacher : package
+- student : package
+- question : package
+
+
+scope: public
+
+- It can access the class/constructor/function/variable outside the package
+- Note: public class doesn't mean members are public
+- If class is public so it must match with filename
+- If one single file there is only one public class
+- One single file has one public and n non-public classes
+
+Q. Create a Employee class
+
+- id, name, basic salary, companyName
+- Need 2 constructors: default and parameterized cons
+- companyName is fixed for all employees
+
+
+Inheritance: Class Relationship
+
+- Communicate b/w two classes
+
+1. IS - A Inheritance
+
+BMW is a car
+Cat is a animal
+SavingAccount is a account
+Home Loan is a loan
+PartTimeEmployee is a Employee
+India is a country
+
+2. HAS - A Inheritance
+
+BMW has a driver
+Customer has a order
+Customer has a account
+Homeloan has a amount
+
+In development:
+
+OOAD: Object Oriented Analysis and Design
+
+SOLID Principle
+
+- D: DRY: Don't Repeat Yourself
+- S: SRP: Single Responsibility Principle
+
+- One class One file
+- If your class is public so class name must be same as file name
+- so in one file we can have n non-public classes
+- if one file (X.java) has 3 classes e.g:
+
+class X{} class Y{} class Z{}
+After Compile them it will create 3 byte codes
+X.class, Y.class , Z.class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
