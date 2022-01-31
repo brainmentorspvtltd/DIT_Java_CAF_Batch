@@ -12,7 +12,16 @@ public class Student { // Encapsulation + Data Hiding = Good Encapsulation
 	private String course;
 	private double fees;
 	private String collegeName;
-	
+
+	//getter
+	public String getPhone() {
+		return phone;
+	}
+	//setter
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 	//default constructor
 	Student()
 	{
@@ -78,6 +87,10 @@ public class Student { // Encapsulation + Data Hiding = Good Encapsulation
 		ram.print();
 		
 		System.out.println("****************************************************");
+		
+		ram.setPhone("8724687874");
+		System.out.println(ram.getPhone());
+		ram.print();
 		
 //		Student shyam = new Student();
 //		shyam.print();
