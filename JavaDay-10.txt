@@ -1,0 +1,55 @@
+Java
+
+Inheritnace: Parent Child Relationship
+
+- IS A Inheritance
+
+this: It is used to store current object's address/reference
+Super: It is used to call the parent's Contructors (in inheritnace only)
+
+- HAS A Inheritance
+
+by using extends keyword
+
+Benefit:
+- Code Reuseability
+
+Overriding
+
+- When parent feature is outdated so we override the parent feature in a child class.
+- Override hide the parent feature.
+- Must be inheritance
+- Method Signature must be same
+e.g:
+void roi(), same child has same void roi()
+
+Final Keyword:
+
+- If a variable is declared with the final keyword it's value can't be changed once initialized.
+- to prevent method overriding, can't be hide the parent feature using overriding
+- to prevent inheritance, can't be subclassed/Inherit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
