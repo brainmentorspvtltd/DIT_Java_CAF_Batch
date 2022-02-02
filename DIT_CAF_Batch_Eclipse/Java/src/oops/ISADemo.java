@@ -5,10 +5,15 @@ class Human {
 	
 	private String name;
 	
-	public Human()
+	public Human(String name)
 	{
-		name = "Ram Kumar";
+		this.name = name;
 	}
+	
+//	public Human()
+//	{	
+//		name = "Ram Kumar";
+//	}
 	
 	public void printName()
 	{
@@ -17,12 +22,13 @@ class Human {
 }
 
 //Child Class
-class Employee extends Human
+class Employee extends Human // Inheritance
 {
 	private int empId;
 	
 	public Employee()
 	{
+		super("Ram Kumar"); // Parent Default Cons Call (Implicit Super Call)
 		empId = 101;
 	}
 	
@@ -37,7 +43,7 @@ public class ISADemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Employee e = new Employee();
+		Employee e = new Employee(); // child default cons call
 		e.printId();
 		e.printName();
 
