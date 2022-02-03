@@ -1,0 +1,55 @@
+Java
+
+Finalize()
+
+- Finalize is used to perform clean up processing just before object is garbage collected.
+
+Abstract:
+
+- Abstract Methods are methods can only be declared, not defined.
+- Abstract class can have abstract methods
+- You can't create objects of abstract class
+
+Interface:
+
+Like a class, an interface can have methods and variables , but the methods declared in interface are by default abstract
+
+Why we need Interface?
+
+- It is used to achieve total abstraction
+- Java doesot support multiple inheritance in case of classes but by using interface it can achieve multiple Interface
+
+Lambda Expression:
+
+- It is used to define a interface abstract method in a shortform.
+
+
+Static use 
+
+Object Life Cycle
+
+- Class is loaded, Static block is call
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
