@@ -1,0 +1,59 @@
+Java
+
+Multilevel:
+
+	A (P)
+
+
+	B (C1)
+
+
+	C (C2)
+
+Why Multiple Inheritance is not supported in java?
+
+- Remove ambiguity
+- To provide clean code
+
+Task - 1:
+
+Parent Class: we have only one data member
+Child Class: we have only one data member
+
+Note: in both class data members name are same
+
+Initialize the data members in Child class
+
+Typecasting:
+
+Upcasting: child class object is typecasting in parent class object
+downcasting: parent class object is typecasting in child class object (explicitly)
+
+Task -2 :
+
+Multilevel Inheritance
+
+- Shape--> Rectangle---> ColorRectangle
+
+
+Heirarchical Inheritance
+
+	  A (P)
+
+    B(C1)	C (C1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
