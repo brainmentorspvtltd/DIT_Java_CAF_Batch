@@ -22,6 +22,8 @@ public class StaticUse {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		main(null);
+		
 		for(int i = 1; i <= 10; i++)
 		{
 			Enemy obj = new Enemy("E"+i, true, i);
