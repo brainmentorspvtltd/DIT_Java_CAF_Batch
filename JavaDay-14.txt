@@ -1,0 +1,45 @@
+String Handling
+
+What is String?
+
+- String internally char[]
+e.g: String name = "Ram";
+char name[] = {'R', 'a', 'm'};
+
+- String is a predefine class in java
+- It is also treat like a Data type
+- String is a final class, so you can't inherit
+
+String objects are created in two ways:
+
+1. String Literal Style
+e.g: String name = "Ram";
+
+2. String Object Style
+e.g: String name = new String("Ram");
+
+- String use String Pool
+- String objects are immutable
+String doesn't change existing or original objects, ut can create new memory or object all the time.
+
+Sol: StringBuffer is a mutuable class that means it doesn't create new objects or memory
+
+
+- String is a predefine class in java, So it has lot of predefine functions inside the class
+
+e.g: uppercase, lowercase, indexOf, equals, length
+
+
+String Buffer Concept:
+
+Capacity Cross:
+Old Cap * 2 + 2
+16 * 2 + 2 = 34
+
+
+
+
+
+
+
+
