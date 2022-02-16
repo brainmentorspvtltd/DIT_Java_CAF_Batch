@@ -5,7 +5,8 @@ public class StringBufferConcept {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		StringBuffer sb = new StringBuffer();
+		//StringBuffer sb = new StringBuffer();
+		StringBuilder sb = new StringBuilder();
 		
 		System.out.println(sb.capacity()+" "+sb.length());
 		sb.append("Hello");
@@ -16,5 +17,4 @@ public class StringBufferConcept {
 		System.out.println(sb.capacity()+" "+sb.length());
 
 	}
-
 }
