@@ -1,0 +1,9 @@
+Java:
+
+Exception Handling
+- Abnormal condition which terminates the program flow
+- Runtime Error or abnormal condition
+
+Task:
+
+Calculate division with exception handling
