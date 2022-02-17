@@ -16,13 +16,27 @@ public class AnagramString {
 		char arr2[] = str2.toCharArray();
 		
 		//Sort
-		Arrays.sort(arr1);
-		Arrays.sort(arr2);
+//		Arrays.sort(arr1);
+//		Arrays.sort(arr2);
 		
-		//compare
+		//Hashing
+		int hash1[] = new int[256];//default 0
+		int hash2[] = new int[256];
+		
 		for(int i = 0; i < arr1.length; i++)
 		{
-			if(arr1[i] != arr2[i]) {
+			++hash1[arr1[i]];  // listen
+		}
+		
+		for(int i = 0; i < arr2.length; i++)
+		{
+			++hash2[arr2[i]];  // silent
+		}
+		
+		//compare
+		for(int i = 0; i < hash1.length; i++)
+		{
+			if(hash1[i] != hash2[i]) {
 				System.out.println("Not Anagram String");
 				return;
 			}
@@ -35,7 +49,7 @@ public class AnagramString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		anagramString("listen", "silynt");
+		anagramString("listen", "silent");
 
 	}
 
