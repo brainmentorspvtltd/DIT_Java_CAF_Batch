@@ -1,0 +1,10 @@
+File Handling:
+
+Stream: flow of data
+
+Byte: 
+InputStream
+OutputStream
+
+Text:
+Reader, Writer
