@@ -1,0 +1,17 @@
+File Handling:
+
+Stream: Flow of data
+
+Byte File
+InputStream
+OutputStream
+
+Text File
+Reader
+Writer
+
+Task 1:
+
+- Create one file handling program to create and delete the file
+- Ans also embed the exception handling(try - catch) into this
+
