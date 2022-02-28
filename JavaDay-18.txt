@@ -1,0 +1,16 @@
+LOS: Loan Origination System
+
+1. Sourcing
+Customer Information, Basic Loan Information
+
+2. QDE: Quick Data Entry
+Detail Information
+
+3. Dedupe Check: Fraud
+Negative Customer Data
+
+4. Scoring
+Age, Income, Edu, Exp
+
+5. Approval
+EMI = Principle + Interest
