@@ -1,0 +1,116 @@
+Order of growth
+- Comparing 2 algorithms time taken by using math
+
+- f(n) is said to growing faster than g(n) if
+
+we can compare order of growth using:
+- Ignore lower order terms
+- Ignore leading term constant
+
+Best, Average and Worst Case
+
+Best Case    - Constant
+Average Case - Linear (Based on a condition)
+Worst Case   - Linear
+
+
+Asymptotic Notations
+
+- Big O		- Worst Case		- Upper bound of algo
+- Theta		- Average Case	- Exact or Upper
+- Omega		- Best Case		- Lower Bound
+
+==============================================
+
+for(int i=1; i<n; i++) {
+	// Logic
+}
+TC : O(n)
+
+==============================================
+
+for(int i=1; i<n; i=i+c) {
+	// Logic
+}
+TC : θ(n)
+
+==============================================
+
+for(int i=n; i>0; i=i-c) {
+	// Logic
+}
+TC : θ(n)
+
+==============================================
+
+for(int i=1; i<n; i=i*c) {
+	// Logic
+}
+TC : θ(logn)
+
+==============================================
+
+for(int i=n; i>1; i=i/c) {
+	// Logic
+}
+TC : θ(logn)
+
+==============================================
+
+for(int i=2; i<n; i=pow(i,c)) {
+	// Logic
+}
+TC : θ(loglogn)
+
+==============================================
+
+Analysis of Multiple Loops
+
+for(int i=0; i<n; i++) {
+	// Logic
+}
+for(int i=1; i<n; i*2) {
+	// Logic
+}
+for(int i=1; i<10; i++) {
+	// Logic
+}
+
+TC : O(n)
+
+==============================================
+
+for(int i=1; i<n; i++) {
+	for(int j=1; i<n; j=j*2) {
+		// Logic
+	}
+}
+
+TC : O(nlogn)
+
+==============================================
+
+for(int i=1; i<n; i++) {
+	for(int j=1; i<n; j=j*2) {
+		// Logic
+	}
+}
+
+for(int i=1; i<n; i++) {
+	for(int j=1; i<n; j++) {
+		// Logic
+	}
+}
+
+TC : O(n^2)
+
+
+
+
+
+
+
+
+
+
+

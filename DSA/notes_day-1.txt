@@ -1,0 +1,70 @@
+Data Structures
+
+- store and organize data
+- structured way to organize data
+
+- data organization, management and storage
+
+Space
+Time
+
+- collection of data values, the relationships among them and the functions or operations that can be applied to the data
+
+
+Why we need Data Structures ?
+- Google Maps  - Shortest Path
+- Music Player - Sort playlist based on duration or alphabetical order
+               - Next or prev (Linked List)
+- Browser Back Functionality / Undo Operations - Stack
+- Social Networking like Linked In / Facebook  - Graphs
+- Folders and file management in OS            - Tree
+- Job Scheduling in OS                         - Queue
+
+Data Structures lend itself to efficient Algorithm
+Data Structures and algorithm go hand in hand
+
+
+Algorithm
+- step by step process
+- Sequential steps for solving a problem
+
+
+Performance of Algo or Code
+
+1. Time
+   - amount of processing number of operations that our code has to perform to solve           a problem
+2. Space or Extra Space
+   - memory needed by code to store information at runtime, as well as disk space needed by code for persistance storage
+3. Network
+   - the bandwidth code uses to pass information to clients or other machines
+
+
+
+Analysis of Algorithm - Asymptotic Notations
+
+- the idea is to measure order of growth if n (input) grows, so how much time grows linearly, exponentially, constant or quadratically
+
+- mathematical way to represent the complexity of algorithm
+
+Big Omega - Best Case
+Big O - Worst Case
+Theta - Average Case
+
+
+Aysmptotic Analysis
+- we measure order of growth of time take by a function in terms of input N
+
+Order of growth
+- a function f(n) is said to be growing faster than function g(n) if
+
+
+
+
+
+
+
+
+
+
+
+
