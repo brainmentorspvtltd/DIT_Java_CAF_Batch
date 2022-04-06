@@ -4,8 +4,8 @@ class BinarySearchAlgo {
         int low = 0;
         int high = arr.length - 1;
         int mid = 0;
-        int search = 170;
-        for (int i = 0; i < arr.length; i++) {
+        int search = 70;
+        while (low < high) {
             mid = (low + high) / 2;
             if (search == arr[mid]) {
                 System.out.println("Element Found...");
